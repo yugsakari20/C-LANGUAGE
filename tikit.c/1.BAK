@@ -21,34 +21,32 @@ int main() {
             printf("3. Horror\n");
             printf("4. Sci-Fi\n");
             printf("Enter your choice: ");
-	    scanf("%d", &a);
+            scanf("%d", &a);
 
-	    switch(a) {
-		case 1:
-		    printf("Action\n");
-		    printf("1. Lucy\n");
-		    printf("2. Extraction\n");
-		    printf("3. Escape\n");
-		    printf("4. Matrix\n");
-		    printf("Enter your choice: ");
-		    scanf("%d", &a);
-		    switch(a) {
-			case 1:
-			    printf("Your movie: Lucy\n");
-			    strcpy(movie_name, "Lucy");
-			    total_bill += 10.0; // Assume the price for each movie is $10
-			    break;
-			// Add cases for other action movies and update the total bill similarly
-			default:
-			    printf("Sorry, not available\n");
-		    }
-		    break;
-		case 2:
-		    // Add cases for Comedy movies
-		    printf("enter pokon");
-		    x
-		    break;
-		case 3:
+            switch(a) {
+                case 1:
+                    printf("Action\n");
+                    printf("1. Lucy\n");
+                    printf("2. Extraction\n");
+                    printf("3. Escape\n");
+                    printf("4. Matrix\n");
+                    printf("Enter your choice: ");
+                    scanf("%d", &a);
+                    switch(a) {
+                        case 1:
+                            printf("Your movie: Lucy\n");
+                            strcpy(movie_name, "Lucy");
+                            total_bill += 10.0; // Assume the price for each movie is $10
+                            break;
+                        // Add cases for other action movies and update the total bill similarly
+                        default:
+                            printf("Sorry, not available\n");
+                    }
+                    break;
+                case 2:
+                    // Add cases for Comedy movies
+                    break;
+                case 3:
                     // Add cases for Horror movies
                     break;
                 case 4:
