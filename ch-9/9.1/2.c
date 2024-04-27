@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     char input[100];
     printf("Enter any string: ");
     scanf("%[^\n]", input);
